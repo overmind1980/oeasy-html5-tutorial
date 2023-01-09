@@ -17,8 +17,8 @@ for page in l:
     response = requests.get(url)
     et_html = etree.HTML(response.content)
     folder_name = folder_name.replace(")","").replace("(","")
-    os.system("mkdir " + folder_name)
-    with open(folder_name+".html","wb") as f:
+    os.system("mkdir content/" + folder_name)
+    with open("./content/" + folder_name+".html","wb") as f:
         f.write(response.content)
     et_imgs = et_html.xpath("/html/body/div[4]/div/main/turbo-frame/div/div/div/readme-toc/div/div[2]/article/p/a/img")
     for img in et_imgs:
@@ -31,6 +31,6 @@ for page in l:
         print(file_name)
         img_response = requests.get(img_url)
         img_content = img_response.content
-        with open(folder_name + "/" + file_name,"wb") as f:
+        with open("./content/" + folder_name + "/" + file_name + ".jpg","wb") as f:
             f.write(img_content)
         print(img_url)
