@@ -65,7 +65,7 @@ enable_checker: true
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20221118-1668778248396)
 
 - 但是已经和原来不一样了
-	- 但是对居中和边距的设置都消失了
+	- 但是 居中和边距 都消失了
 - 我们干脆让他更不一样
 
 ### 删除body
@@ -138,15 +138,16 @@ enable_checker: true
 
 ## 总结
 
-- 这次我们把网页中的元素节点删除又删除
-	- 删到最后只剩三行
-	- 文档都删成了空白了
-	- 发现关键的骨架是`html`
-- html是什么意思呢？
-	- html是hyper-text markup language
-	- 是超文本标记性语言
-	- 具体来说怎么标记呢？
+- 这次我们把网页中的元素节点 删了又删
+	- 删到最后 只剩三行
+	- 文档 都删成 空白了
+	- 发现 关键的骨架是`html`
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20221120-1668948857104)
+
+- html是 `什么`意思 呢？
+	- html 是 hyper-text markup language
+	- 是 超文本标记性 语言
+	- 具体来说 怎么标记 呢？
 
 - 下次再说！👋

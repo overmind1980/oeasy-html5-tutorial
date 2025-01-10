@@ -101,8 +101,11 @@ enable_checker: true
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20240627-1719457762394)
 
-- 主关键词竞争充分
-	- 需要从边缘地带入手
+- 主关键词竞争充分怎么办？
+
+### 边缘入手
+
+- 需要从边缘地带入手
 	- 观察分析 长尾关键词
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20240627-1719457945676)
@@ -229,6 +232,7 @@ enable_checker: true
 <html lang="zh-cn">
 	<head>
 		<title>oeasy</title>
+		<meta name="keywords" content="教程,学习资料,个性">
 		<meta name="description" content="oeasy教程是个性化非常明显的教程，评价两极化。">
 	</head>
 	<body>
