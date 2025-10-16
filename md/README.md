@@ -1,4 +1,4 @@
-# ai前端-oeasy教您玩转前端三剑客
+# ai前端-oeasy教您玩转前端三剑客(html5:css3:javasctipt)
 
 oeasy教您从零开始，学习网页基础知识内容。从不会制作网站，到能制作网站，甚至能制作会动起来的网站。
 https://github.com/overmind1980/oeasy-html5-tutorial

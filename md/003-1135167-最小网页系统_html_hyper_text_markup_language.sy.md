@@ -8,22 +8,28 @@ enable_checker: true
 
 ## 开始
 
-- 上次我们启动了nginx网页服务器
-	- 可以在linux下建立自己的网站了
+- 上次启动了 nginx网页服务器
+	- 可以在linux下
+	- 建立自己的网站了
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20230406-1680788845482)
 
-- 这次我们修改了nginx默认页
-  - 右键检查元素
-  - 然后就可以修改相关的文字
+- 还修改了 nginx默认页
+  - 右键 检查元素
+  - 直接修改
 
 - 这似乎还挺有趣的
 	- 还能玩点什么呢？？🤔
 
 ### 打开网页
 
-- 回到蓝桥课程的虚拟机中
-	- 重新启动nginx服务
+```
+sudo service nginx start
+sudo service nginx status
+firefox http://localhost &
+```
+
+- 启动nginx服务
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20221206-1670292428393)
 
@@ -33,100 +39,97 @@ enable_checker: true
 ### 检查元素
 
 - <kbd>f12</kbd> 调出检查元素
-- 将查看器中能关闭的小三角尽量关闭
-	- 发现代码被简化为5行
+	- 将查看器中 能关闭的小三角
+		- 尽量关闭
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20221118-1668778116871)
 
-- \<head>开始标签 和 </head> head结束标签
-	- 构成head元素
-
-- \<body>开始标签 和 </body> body结束标签
-	- 构成 body元素
-- 这两个元素被包裹到
-	- - \<html>开始标签 和 \</html>结束标签 之间
+- 发现代码被简化为5行
+	1. doctype 文档类型
+	2. \<html>开始标签 和 \</html>结束标签 构成 html元素
+		- \<head>开始标签 和 \</head> head结束标签 构成head元素
+		- \<body>开始标签 和 \</body> body结束标签 构成 body元素
 
 ### 删除head节点
 
-- 先观察一下当前网页状态
-	- 宽度是被控制好的
-	- 而且是居中的
-- 右键选中查看器中第2行的head元素
-	- 删除节点
+- 观察 当前状态
+	- 宽度固定 而且居中
+- 查看器中
+	- 右键 选中 
+	- 第2行的head元素
+	- 右键 删除
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20221118-1668778150306)
 
-- 再观察删除节点后网页的变化
+- 再观察 删除后
+	- 网页变化
 
 ### 删除结果
 
-- 网页文字部分还在
+- 文字还在
+	- 居中和边距 都消失了😱
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20221118-1668778248396)
 
-- 但是已经和原来不一样了
-	- 但是 居中和边距 都消失了
-- 我们干脆让他更不一样
+- 干脆让他更`不一样`
 
 ### 删除body
 
-- 在下面的查看器中选中body部分
-	- 右键删除节点
+- 在查看器中
+	- 选中body
+	- 右键删除
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20230413-1681374007024)
 
-- 删除节点后
-	- 文字全部消失
-	- 只剩空白三行
+- 文字全部消失
+	- 查看器 剩空白三行
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20221118-1668778286438)
 
-- 还可以再删吗？
+- 还可以`再`删吗？
 
 ### 尝试再删
 
-- 右键html元素节点
-	- 删除节点已经灰化了
-	- 不能再删除了!
+- 右键html元素
+	- 删除节点 已经灰化了
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20221118-1668778349016)
 
+- 不能 `再`删除了!
+
 ### 空白的舞台
 
-- 这三行就像
-	- 一个空白的舞台
-	- 等待着各种角色登场
+- 这三行 就像
+	- 空白的舞台
+	- 等待着 角色
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20240630-1719716739727)
 
-- 这空白三行到底是什么意思呢？
+- 这三行 啥意思 呢？
 
 ### html
 
-- 剩下的这三行里面
-	- 反复出现关键字
-		- html
+- 剩下的 这三行里面
+	- 反复出现 `html`
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20221118-1668778554368)
 
-- 究竟什么是html呢？
+- 究竟 什么是 `html`呢？
 
 ### 提问
 
+- 超文本标记语言
+	- html
+	- `h`yper
+	- `t`ext
+	- `m`arkup
+	- `l`anguage
+
 ![图片描述](https://doc.shiyanlou.com/courses/3781/labs/1135167/uid1190679-20250315-1742043265751) 
-
-- 上次的是http
-
-![图片描述](https://doc.shiyanlou.com/courses/3781/labs/1135167/uid1190679-20250315-1742043338753) 
-
-- 主打一个 hyper-text 超文本
 
 ### 搜索
 
-- 搜索是我们的好习惯
-	- 主动地获得信息
-	- 比被动接受刷来的信息更主动
-	- 比人工智能告诉我们的更多元
+- 搜索
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20220907-1662554314859)
 
@@ -134,19 +137,84 @@ enable_checker: true
 
 ### html
 
-- html是一个缩写
-	- 完整拼写是
-		- hyper-text markup language
-		- 超文本标记语言
+- 超文本标记语言
+	- 是一种标记语言
+	- 通过标签 进行标记
 
 ![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20220907-1662554387971)
 
-- 什么是
-	- `h`yper-`t`ext `m`arkup `l`anguage呢
+- 是超文本标记语言
+	- 上次的是超文本什么来着？
+
+### 回忆
+- 超文本传输协议
+	- http
+	- `h`yper
+	- `t`ext
+	- `t`ransfer
+	- `p`rotocol
+
+![图片描述](https://doc.shiyanlou.com/courses/3781/labs/1135167/uid1190679-20250315-1742043338753) 
+
+- 都属于  超文本
+	- hyper-text 
+- 怎么理解这个hyper
+
+
+### 希腊语
+
+- 希腊神话
+	- Hyperion
+	- [haɪˈpɪriən]]
+
+![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20221206-1670297746827)
+
+- 穿越天空的人
+	- 从高空中向下俯视者
+	- 是天空和大地的孩子
+	- 十二泰坦之一
+	- 镇守东方
+	- 太阳、月亮、黎明都是他的孩子
+	- 都从东边出现
+
+### hyper
+
+- hyper这个单词
+	- 来自印欧语词根*uper 
+
+![图片描述](https://doc.shiyanlou.com/courses/3781/labs/563432/uid1190679-20250922-1758548832701) 
+
+- 词根 从不同语族 衍生出单词
+
+| 语族         | 对应词汇           |
+|--------------|------------------------------|
+| 希腊语族     | hyper              |
+| 日耳曼语     | over、above    |
+| 南欧拉丁语   | super              |
+
+
+### hyper-text
+
+- hyper 
+	- 在XXX之上
+	- 就是超越
+
+- hyper-text
+	- `超越` 文本
+	-  `超越`一般的纯文本
+
+![图片描述](https://doc.shiyanlou.com/courses/uid1190679-20220907-1662554457749)
+
+- 超文本 相比纯文本
+	- 还有字体、颜色、排版
+	- 还有图像、声音、视频等等
+	- 尤其是超链接
+	- 这就是hyper-text
+		- 超文本
 
 ## 总结
 
-- 这次我们把网页中的元素节点 删了又删
+- 我们 这次把 网页中的元素节点 删了又删
 	- 删到最后 只剩三行
 	- 文档 都删成 空白了
 	- 发现 关键的骨架是`html`
@@ -156,5 +224,5 @@ enable_checker: true
 - html是 `什么`意思 呢？
 	- html 是 hyper-text markup language
 	- 是 超文本标记性 语言
-- 具体来说 怎么标记 呢？🤔
+- 具体 咋标记 呢？🤔
 - 下次再说！👋
